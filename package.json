@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://adamgorski56.github.io/goHungryPeople/",
   "scripts": {
     "build": "webpack",
-    "start:dev": "webpack-dev-server --open"
+    "start:dev": "webpack-dev-server --open",
+    "deploy": "gh-pages -d build"
     
   },
   "keywords": [],
