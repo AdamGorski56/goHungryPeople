@@ -1,0 +1,36 @@
+/* MAP Section */
+
+.map{
+    position: relative;
+    height:550px;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    height:100px;
+}
+
+footer span{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width:600px){
+
+    .map{
+        position: relative;
+        height:350px;
+}
+
+}
