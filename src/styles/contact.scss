@@ -1,0 +1,185 @@
+/* CONTACT Section */
+
+.contact{
+    height: 675px;
+}
+
+.contact__text_container{
+    width: 565px;
+    margin: 100px auto 60px auto;
+
+}
+
+.contact h1{
+    font-family: TRAHO2;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.contact__line{
+    position: relative;
+    background: #E8C300;
+    border-radius: 50px;
+    width: 60px;
+    height: 5px;
+    margin: 15px auto 15px auto;
+    z-index: 1;
+}
+
+.contact h5{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contact__form_container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+
+.contact__form_container form{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.contact__form_container input{
+    height:60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    width:30%;
+    border: none;
+    margin: 5px;
+}
+
+.contact__form_container input[placeholder=Message] {
+    height:120px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    width:92%;
+    border: none;
+    margin:0;
+    margin: 5px;
+}
+
+.contact__info_and_button_container{
+    position: relative;
+    width:92%;
+    height:60px;
+    margin: 0 auto;
+    top:5px;
+}
+
+.contact__info_and_button_container span{
+    position: relative;
+    float: left;
+    width:17%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.contact__info_and_button_container i {
+    color:#E8C300;
+    text-align: center;
+}
+
+.contact__form_container button{
+    position: relative;
+    background: #E8C300;
+    border-radius: 5px;
+    width:45%;
+    height: 60px;
+    border: none;
+    float: right;
+    text-align: center;
+}
+
+.contact__form_container button p{
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.contact_container input[type=text],.contact_container input[type=email],.contact_container input[type=tel]{
+    font-family: Open Sans;
+    font-style: normal;
+    color: rgba(51, 51, 51, 0.5);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-indent: 20px;
+}
+
+@media only screen and (max-width:1500px){
+
+    .contact__info_and_button_container span{
+        width:92%;
+        top:40%;
+    }
+
+    .contact__info_and_button_container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width:92%;
+        height:150px;
+    
+    }
+    .contact__form_container button{
+        width:100%;
+        height: 60px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+
+    .contact{
+        height: 875px;
+    }
+    
+    .contact__form_container input{
+        width:92%;
+    }
+    
+    .contact__form_container input[placeholder=Message] {
+        height:160px;
+    }
+
+    .contact__info_and_button_container span{
+        margin-bottom: 15px;
+        top:50%
+    }
+
+}
+
+@media only screen and (max-width:600px){
+
+    .contact__text_container{
+        width: 100%;
+    }
+
+    .contact h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .contact h5{
+        font-size: 14px;
+        line-height: 24px;
+        width:92%;
+        margin: 0 auto;
+    }
+}
