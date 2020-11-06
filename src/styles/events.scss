@@ -244,13 +244,13 @@
         height: 1000px;
     }
 
-     .events__left_image_container{ 
+     .events__left_image_container, .events__right_image_container{ 
         background-size: cover;
         width:325px;
         height: 325px;
     }
 
-    .events__left_side_text_container{
+    .events__left_side_text_container, .events__right_side_text_container{
         height:325px;
     }
     
@@ -267,7 +267,7 @@
          height: 900px;
     }
 
-    .events__left_image_container{ 
+    .events__left_image_container, .events__right_image_container{ 
          width:275px;
          height: 275px;
      }
@@ -284,7 +284,7 @@
         display: none;
     }
 
-    .events__left_side_text_container{
+    .events__left_side_text_container, .events__right_side_text_container{
         height:275px;
      }
 
