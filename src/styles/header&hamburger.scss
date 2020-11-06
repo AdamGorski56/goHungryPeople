@@ -333,10 +333,15 @@ header nav img{
     .hamburger{
         display: block;
         outline:0px;
+        
     }
 
     .navigation ul li{
         opacity: 0;
+        padding-right: 0px;
+        padding-left: 0px;
+        position: absolute;
+        width: 1px;
     }
 
             /* ACTIVE HAMBURGER MENU */
@@ -480,6 +485,7 @@ header nav img{
 
 @media only screen and (max-width:768px){
 
+   
     .header_content{
         display: flex;
         height: 750px;
@@ -553,7 +559,7 @@ header nav img{
         }
         
         .social_media_nav_container nav a{
-            margin: 15px;
+            margin: 15px 0px 15px 0;
             width:15px;
             height: 15px;
             padding:15px;
@@ -584,7 +590,10 @@ header nav img{
 
     }
 
-    @media only screen and (max-width: 480px){  
+    @media only screen and (max-width: 480px){ 
+        .hamburger{
+            left: 80%;
+        } 
         
         .hamburger--active{
             left:44%;
